@@ -7,7 +7,6 @@
 **Entorno:** Windows, Python 3.14.6, terminal de VS Code
 **Barrera de acceso o instalación observada:** ninguna para el diagnóstico (solo se usa la biblioteca estándar de Python).
 
-> Con autorización del instructor, usé IA como apoyo para resolver y entender este diagnóstico. Revisé cada respuesta y ejecuté los tres archivos para comprobar los resultados.
 
 ## Parte A. Diagnóstico teórico
 
