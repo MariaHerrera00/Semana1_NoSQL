@@ -1,0 +1,26 @@
+> mongosh "mongodb://127.0.0.1:27017/emprendimiento_sena_lab" --username aprendiz_nosql --authenticationDatabase emprendimiento_sena_lab --file scripts/02_transferencia.js
+(contraseña escrita en el prompt, no se registra)
+{
+  _id: 'ASE-DEMO-002',
+  emprendedor_alias: 'Emprendedor ficticio 01',
+  iniciativa: {
+    codigo: 'INI-DEMO-002',
+    nombre: 'Sabores Locales',
+    sector: 'alimentos'
+  },
+  temas: [
+    'propuesta de valor',
+    'validacion de clientes'
+  ],
+  modalidad: 'virtual',
+  estado: 'programada',
+  requiere_seguimiento: true,
+  fecha_programada: ISODate('2026-10-08T13:00:00.000Z'),
+  fecha_realizacion: null
+}
+Conteo ASE-DEMO-001: 1
+Conteo ASE-DEMO-002: 1
+fecha_programada es Date: true
+tipo de iniciativa.sector: string
+temas es arreglo: true
+requiere_seguimiento es booleano: true

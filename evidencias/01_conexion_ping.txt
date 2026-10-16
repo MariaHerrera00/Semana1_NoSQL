@@ -1,0 +1,13 @@
+> mongosh "mongodb://127.0.0.1:27017/emprendimiento_sena_lab" --username aprendiz_nosql --authenticationDatabase emprendimiento_sena_lab
+(contraseña escrita en el prompt, no se registra)
+
+   The server generated these startup warnings when booting
+   2026-10-15T20:36:47.903-05:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+
+emprendimiento_sena_lab> db = db.getSiblingDB("emprendimiento_sena_lab");
+emprendimiento_sena_lab
+emprendimiento_sena_lab> db.runCommand({ping: 1});
+{ ok: 1 }
+emprendimiento_sena_lab> db.getName();
+emprendimiento_sena_lab
+emprendimiento_sena_lab> exit
